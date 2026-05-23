@@ -2,9 +2,11 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      <h1>HOME</h1>
-    </div>
+    <main>
+      <div>
+        <p>IA Integrada no seu currículo</p>
+      </div>
+    </main>
   )
 }
 

@@ -1,1 +1,18 @@
 @import 'tailwindcss';
+/* 
+--cta-color: #7f77dd;
+--main-txt-color: #111111;
+--secondary-txt-color: #6b7280;
+--border-color: #e5e7eb; */
+
+body {
+  background-color: #f9f9f9;
+}
+
+.jk-font {
+  font-family: 'Plus Jakarta Sans';
+}
+
+.inter-font {
+  font-family: 'Inter';
+}
