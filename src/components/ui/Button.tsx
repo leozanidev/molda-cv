@@ -1,10 +1,11 @@
-import React from 'react'
+interface ButtonProps {
+  text: string
+  to: string
+}
 
-const Button = () => {
+const Button = ({ text }: ButtonProps) => {
   return (
-    <a href="/login" className="w-1/2">
-      Entrar
-    </a>
+    <button className="flex jk-font rounded-xl items-center justify-center p-3 transition duration-500 border border-[#7f77dd] bg-[#F1F1F1] text-[#7f77dd] hover:bg-[#7f77dd] hover:text-[#F9F9F9]"></button>
   )
 }
 
