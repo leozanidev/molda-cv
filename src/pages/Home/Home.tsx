@@ -25,7 +25,7 @@ const Home = () => {
         </p>
       </div>
       <div className="mt-5">
-        <LinkButton text="Comece grátis" to="/register" />
+        <LinkButton text="Comece grátis" to="/auth" />
       </div>
       <ExampleCV />
       <div className="flex flex-col text-center my-10">
@@ -64,6 +64,32 @@ const Home = () => {
               Exporte um currículo profissional pronto pra enviar
             </p>
           </div>
+        </div>
+      </div>
+      <div className="grid grid-cols-2 gap-5 my-10">
+        <div className="bg-[#f1f1f1] p-5 rounded-lg">
+          <h4 className="font-bold">Revisão com IA</h4>
+          <p className="text-sm">
+            Sugestões inteligentes baseadas no seu perfil e na vaga desejada.
+          </p>
+        </div>
+        <div className="bg-[#f1f1f1] p-5 rounded-lg">
+          <h4 className="font-bold">Revisão com IA</h4>
+          <p className="text-sm">
+            Sugestões inteligentes baseadas no seu perfil e na vaga desejada.
+          </p>
+        </div>
+        <div className="bg-[#f1f1f1] p-5 rounded-lg">
+          <h4 className="font-bold">Revisão com IA</h4>
+          <p className="text-sm">
+            Sugestões inteligentes baseadas no seu perfil e na vaga desejada.
+          </p>
+        </div>
+        <div className="bg-[#f1f1f1] p-5 rounded-lg">
+          <h4 className="font-bold">Revisão com IA</h4>
+          <p className="text-sm">
+            Sugestões inteligentes baseadas no seu perfil e na vaga desejada.
+          </p>
         </div>
       </div>
     </main>

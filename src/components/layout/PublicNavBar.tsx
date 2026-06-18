@@ -24,8 +24,8 @@ const PublicNavBar = () => {
         </Link>
       </div>
       <div className="flex gap-2">
-        <LinkButton text="Entrar" to="/login" />
-        <LinkButton text="Comece grátis" to="/register" />
+        <LinkButton text="Entrar" to="/auth" />
+        <LinkButton text="Comece grátis" to="/auth" />
       </div>
     </nav>
   )

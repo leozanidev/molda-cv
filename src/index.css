@@ -16,3 +16,10 @@ body {
 .inter-font {
   font-family: 'Inter';
 }
+
+body,
+html,
+#root {
+  height: 100%;
+  overflow: hidden;
+}

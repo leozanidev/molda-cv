@@ -1,7 +1,6 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import Home from '../pages/Home/Home'
-import Login from '../pages/Login/Login'
-import Register from '../pages/Register/Register'
+import Auth from '../pages/Auth/Auth'
 import CreateCV from '../pages/CreateCV/CreateCV'
 import ReviewCV from '../pages/ReviewCV/ReviewCV'
 import Dashboard from '../pages/Dashboard/Dashboard'
@@ -19,8 +18,6 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<PublicLayout />}>
           <Route index element={<Home />}></Route>
-          <Route path="/login" element={<Login />}></Route>
-          <Route path="/register" element={<Register />}></Route>
         </Route>
         <Route element={<PrivateLayout />}>
           <Route path="/dashboard" element={<Dashboard />}></Route>
@@ -28,6 +25,7 @@ const AppRoutes = () => {
           <Route path="/review-cv" element={<ReviewCV />}></Route>
           <Route path="/my-cvs" element={<MyCvs />}></Route>
         </Route>
+        <Route path="/auth" element={<Auth />}></Route>
       </Routes>
     </BrowserRouter>
   )
